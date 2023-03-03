@@ -32,7 +32,7 @@ public class Persona {
 
     public Persona(String nombre) {
     	this.cedula = ndcedula;
-        this.nombre = "";
+        this.nombre = nombre;
         totalPersonas++;
         ndcedula++;
     }
