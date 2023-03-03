@@ -38,8 +38,7 @@ public class Persona {
     }
     
     public Persona() {
-    	this.cedula = ndcedula;
-    	this.nombre = "";
+    	this(ndcedula,"");
         totalPersonas++;
         ndcedula++;
     }
